@@ -19,7 +19,7 @@ WIDTH = COLOUMN_COUNT*SQUARE
 HEIGHT = (ROW_COUNT+1)*SQUARE
 
 size = (WIDTH,HEIGHT)
-
+##CREATED BY MITUL MISTRY##
 ##creating screen as per size
 screen = pg.display.set_mode(size)
 
@@ -101,7 +101,7 @@ def draw_board(board):
     #UPDATING SCREEN
     pg.display.update()
 
-        
+##CREATED BY MITUL MISTRY##
 #NUMERICAL MATRIX
 board = create_board()
 draw_board(board)
@@ -162,7 +162,7 @@ while not game_over :
                         label=myfont.render('Player 1 Wins!',1,RED)
                         screen.blit(label,(40,10))
                         game_over=True
-                        
+                        ##CREATED BY MITUL MISTRY##
             ##ASK PLAYER 2 INPUT
             else:
                 
@@ -180,7 +180,7 @@ while not game_over :
                         screen.blit(label,(40,10))
                         game_over=True
                         game_over=True
-                        
+                        ##CREATED BY MITUL MISTRY##
             #PRINTING THE LAST BOARD AND GENERATING NEW BOARD AS PER LATEST INPUT
             print_board(board)
             draw_board(board)
@@ -192,3 +192,5 @@ while not game_over :
             #AFTER GAME OVER WINDOW WILL CLOSE AFTER 3 SECs OF DELAY
             if game_over==True:
                 pg.time.wait(3000)
+                
+##CREATED BY MITUL MISTRY##
