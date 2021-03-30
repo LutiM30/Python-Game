@@ -61,7 +61,7 @@ def paddle_b_down():
 # Score function
 score_a = 0
 score_b = 0
-
+##CREATED BY MITUL MISTRY##
 pen =turtle.Turtle()
 pen.speed(0)
 pen.color("white")
@@ -119,4 +119,6 @@ while True:
     if ball.xcor() < -340 and ball.xcor() > -350 and ball.ycor() < paddle_a.ycor() + 40 and ball.ycor() > paddle_a.ycor() - 40:
         ball.setx(-340)
         ball.dx *= -1
-        winsound.PlaySound("bounce.wav" ,winsound.SND_ASYNC)
+        winsound.PlaySound("bounce.wav" ,winsound.SND_ASYNC) ##CREATED BY MITUL MISTRY##
+       
+##CREATED BY MITUL MISTRY##
